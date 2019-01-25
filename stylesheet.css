@@ -1,0 +1,88 @@
+.mycontainer {
+    margin: 0 50px
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px
+    
+}
+#under {
+    margin: 30px 0
+}
+
+hr {
+    color: lightgrey
+}
+
+
+body, .tabs .tab , .tabs .tab a:focus.active a:hover {
+    background-color: #F1F1F1;
+    color: #78909c
+}
+.tabs .tab a.active {
+    background-color: #F1F1F1;
+    color: #78909c
+    
+}
+.tabs .tab a.active:focus {
+    background-color: #F1F1F1;
+    color: #78909c;
+    
+}
+.tabs .tab a {
+    color: black;
+    display: block;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #78909c;
+}
+a.active{
+    color: #78909c;
+}
+
+.tabs .indicator {
+ background-color: #78909c   
+}
+
+.parallax img {
+    width: 100%
+}
+
+.page-footer {
+    background-color: #78909c
+}
+
+#learnmore {
+    color: white;
+    background-color: lightgrey
+}
+#learnmore1 {
+    color: white;
+    background-color: lightgrey
+}
+#learnmore2 {
+    color: white;
+    background-color: lightgrey
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: white;
+}
+
+#aboutmeimg {
+    width: 100%
+}
+@media only screen and (min-width: 700px) {
+.myform {
+    width: 50%;
+    margin: 20px auto
+}
+}
+.btn, .btn-large, .btn-small {
+    color: #fff;
+    background-color: #586362;
