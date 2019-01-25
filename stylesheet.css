@@ -87,3 +87,10 @@ a.active{
     color: #fff;
     background-color: #586362
 }
+.myicons {
+    text-align: center
+}
+.myicons a .fab {
+    margin: 0 10px;
+    color: white
+}
